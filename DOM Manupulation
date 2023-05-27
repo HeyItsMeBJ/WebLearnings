@@ -1,0 +1,96 @@
+// // selectiing elements methods ::--
+
+// const head=document.getElementById('head');
+// console.log(head);
+
+// const tag=document.getElementsByTagName('h1');
+// console.log(tag);
+
+// const clss=document.getElementsByClassName('he2');
+// console.log(clss);
+
+// const query=document.querySelector('h1');
+// console.log(query);
+
+// const queryall=document.querySelectorAll('h1');
+// console.log(queryall);
+
+// -------------------================================--------------------------
+
+// Traversing in DOM ::--
+
+// // 1. parentNode
+// const head=document.querySelector('.he2');
+// const parent=head.parentNode;
+// console.log(parent);
+
+// // 2. childNodes
+// const parent=document.querySelector('.parent');
+// const child=parent.childNodes;
+// console.log(child);
+
+// // 3. nextElementSibling
+// const head=document.querySelector('.he2');
+// const nexthead=head.nextElementSibling;
+// console.log(nexthead);
+
+// // 4. previousElementSibling
+// const head=document.querySelector('.he3');
+// const prehead=head.previousElementSibling;
+// console.log(prehead);
+
+//--------------------================================-------------------------
+
+
+// // Manupulation of element
+
+// const head=document.getElementById('head');
+// head.innerHTML="you fool";
+// head.style.color="blue";
+// head.style.fontSize="50px";
+// head.classList.add('he1');
+// head.classList.remove('he1');
+
+// // add element
+// const newhead=document.createElement('h4');
+// const newhead1=document.createElement('h4');
+// const prnt=document.querySelector('.parent');
+// newhead.innerHTML="I am new one by js";
+// newhead1.innerHTML="I am new one by js 1";
+// prnt.appendChild(newhead);
+// prnt.insertAdjacentElement('afterbegin',newhead1);
+
+
+//--------------======================-------------------------
+
+
+// Events
+
+// // addEventListener
+// const but=document.getElementById('but');
+// const test=document.getElementById('test');
+// but.addEventListener('click',function(event){
+//     test.style.backgroundColor="blue";
+//     test.style.width='110px';
+//     console.log('button clicked',event);
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
